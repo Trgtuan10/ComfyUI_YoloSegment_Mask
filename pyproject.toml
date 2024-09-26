@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_yolosegment_mask"
+description = "NODES:Object Mask.\nNOTE:push [a/yolov8x-seg.pt](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x-seg.pt) in models/yolo"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "ultralytics", "transformers", "pillow", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/Trgtuan10/ComfyUI_YoloSegment_Mask"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_YoloSegment_Mask"
+Icon = ""
