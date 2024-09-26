@@ -10,6 +10,6 @@ Repository = "https://github.com/Trgtuan10/ComfyUI_YoloSegment_Mask"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "trgtuan10"
 DisplayName = "ComfyUI_YoloSegment_Mask"
 Icon = ""
